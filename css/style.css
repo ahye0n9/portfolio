@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.brand_title_wrap{
+    text-align: center;
+}
+.brand_title{
+    margin: 60px 0 20px;
+font-size: 18px;
+}
+.spacing{
+    height: 100px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-content h1 span {
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+  .typewriter span {
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    font-weight: inherit;     /* 상위 h1에서 받은 얇은 스타일 유지 */
+    font-family: inherit;     /* 폰트도 유지 */
+  }
+
+.combine{
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mix_icon{
+    justify-content: center !important; 
+}
+.icon_wrap{
+    display: flex;
+    gap: 2%;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+}
+.icon_wrap li{
+    width: 7%;
+}
+.icon_wrap li img{
+    display: block;
+    max-width: 100%;
+    opacity: 30%;
+    border-radius: 0px;
+}
